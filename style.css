@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tasbeh {
+    position: relative;
+}
+
+.katta-aylana {
+    width: 200px;
+    height: 220px;
+    background-color: rgb(236, 143, 13);
+    border-radius: 70px 70px 100px 100px;
+}
+.kichik-aylana {
+    position: absolute;
+    width: 160px;
+    height: 200px;
+    background-color: rgb(236, 143, 13);
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0px 0px 70px 70px;
+}
+input {
+    border: none;
+    text-align: end;
+    font-size: 25px;
+    font-weight: bold;
+    outline: none;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 40px;
+    padding: 5px 10px;
+    width: 120px;
+    border-radius: 5px;
+}
+.katta {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 16px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    border: none;
+    background-color: #fff;
+}
+.kichik{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 30px;
+    bottom: 90px;
+    border-radius: 50%;
+    border: none;
+}
